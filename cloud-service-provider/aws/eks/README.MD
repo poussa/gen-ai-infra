@@ -52,7 +52,7 @@ helm install -n chatqna --create-namespace chatqna --set service.type=LoadBalanc
 
 After a while, the OPEA application should be running. You can check the status via kubectl.
 
-```bash 
+```bash
 kubectl get pod -n chatqna
 ```
 
@@ -72,4 +72,3 @@ Delete the cluster via the following command.
 ```bash
 terraform destroy
 ```
-
